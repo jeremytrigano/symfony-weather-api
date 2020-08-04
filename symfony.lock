@@ -81,9 +81,6 @@
     "egulias/email-validator": {
         "version": "2.1.9"
     },
-    "fig/link-util": {
-        "version": "1.0.0"
-    },
     "monolog/monolog": {
         "version": "1.24.0"
     },
@@ -270,6 +267,9 @@
     "symfony/dotenv": {
         "version": "v4.3.2"
     },
+    "symfony/error-handler": {
+        "version": "v4.4.11"
+    },
     "symfony/event-dispatcher": {
         "version": "v4.3.2"
     },
@@ -405,6 +405,9 @@
     },
     "symfony/polyfill-php73": {
         "version": "v1.11.0"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.18.1"
     },
     "symfony/process": {
         "version": "v4.3.2"
