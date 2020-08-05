@@ -66,7 +66,7 @@ La page qui affichera la météo est disponible à l'url `http://127.0.0.1:8000/
 - [*] Passer les données au template via le controller
 - [*] Mettre à jour le template pour afficher les données
 - [*] Remonter la météo de toulouse en Occitanie
-- [ ] Gérer les erreurs de l'API via un bloc `try catch` dans le service
+- [*] Gérer les erreurs de l'API via un bloc `try catch` dans le service
 - [ ] Ajouter un formulaire et des appels API pour permettre à l'utilisateur de choisir sa ville
 - [ ] Faire de la page qui affiche la météo la home page
 - [ ] Rendre la page qui affiche la météo responsive
