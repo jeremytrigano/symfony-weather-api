@@ -20,7 +20,12 @@ class WeatherService
      */
     public function getWeather()
     {
-        $response = $this->client->request('GET', 'https://api.openweathermap.org/data/2.5/weather?lon=1.44&lat=43.6&appid=' . $this->apiKey);
+        $response = $this->client->request('GET',
+            'https://api.openweathermap.org/data/2.5/weather?'
+            . 'q=Toulouse'
+            . '&units=metric'
+            . '&lang=fr'
+            . '&appid=' . $this->apiKey);
         $content = $response->getContent();
 
         return json_decode($content, true);
