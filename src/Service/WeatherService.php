@@ -18,12 +18,12 @@ class WeatherService
     /**
      * @return array
      */
-    public function getWeather()
+    public function getWeather($city)
     {
         try {
             $response = $this->client->request('GET',
             'https://api.openweathermap.org/data/2.5/weather?'
-            . 'q=Toulouse'
+            . 'q='.$city
             . '&units=metric'
             . '&lang=fr'
             . '&appid=' . $this->apiKey);
