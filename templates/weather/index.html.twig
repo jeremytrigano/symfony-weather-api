@@ -4,16 +4,17 @@
     Votre météo !
 {% endblock %}
 
-{% block body %}
-
-    <h1>Bienvenue sur la page Météo</h1>
-
-    {{ form_start(form) }}
-    <div>
-        {{ form_label(form.city_name) }}
-        {{ form_errors(form.city_name) }}
-        {{ form_widget(form.city_name) }}
+{% block content %}
+	<div class="container">
+        <h1>Bienvenue sur la page Météo</h1>
+        <span class="mb-5">&nbsp;</span>
+        {{ form_start(form) }}
+		<div class="d-inline row mb-3">
+            <label for="cityNameInput" class="form-label">{{ form_label(form.city_name) }}</label>
+            {{ form_widget(form.city_name) }}
+            {{ form_errors(form.city_name) }}
+            {{ form_end(form) }}
+        </div>
     </div>
-    {{ form_end(form) }}
 
 {% endblock %}

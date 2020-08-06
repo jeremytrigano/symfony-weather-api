@@ -69,4 +69,4 @@ La page qui affichera la météo est disponible à l'url `http://127.0.0.1:8000/
 - [x] Gérer les erreurs de l'API via un bloc `try catch` dans le service
 - [x] Ajouter un formulaire et des appels API pour permettre à l'utilisateur de choisir sa ville
 - [x] Faire de la page qui affiche la météo la home page
-- [ ] Rendre la page qui affiche la météo responsive
+- [x] Rendre la page qui affiche la météo responsive
